@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sky: #1787C4;
+  --color-sky-dark: #0E659A;
+  --color-orange: #E87B2A;
+  --color-green-tcr: #5BAD2A;
+  --color-navy: #0A2540;
+  --color-gray-light: #F5F5F5;
+
+  --font-sans: var(--font-outfit);
+  --font-display: var(--font-dm-serif);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-outfit), system-ui, sans-serif;
+  background-color: #ffffff;
+  color: #0A2540;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Orange underline decoration */
+.accent-underline {
+  position: relative;
+  display: inline-block;
+}
+.accent-underline::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #E87B2A;
+  border-radius: 2px;
+}
+
+/* Subtle noise texture overlay */
+.noise-overlay {
+  position: relative;
+}
+.noise-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Step number ghost */
+.step-ghost {
+  font-size: clamp(5rem, 10vw, 8rem);
+  font-weight: 900;
+  line-height: 1;
+  color: #E87B2A;
+  opacity: 0.12;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Credential badge style */
+.credential-card {
+  border-left: 3px solid #1787C4;
+}
