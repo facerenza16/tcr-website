@@ -72,7 +72,7 @@ export function Hero() {
             Limpieza profesional
             <br />
             <span className="accent-underline" style={{ color: '#E87B2A' }}>
-              que se nota.
+              que marca la diferencia
             </span>
           </h1>
           <p className="text-lg md:text-xl text-white/75 font-light max-w-xl mx-auto leading-relaxed">
