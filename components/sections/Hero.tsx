@@ -46,11 +46,11 @@ export function Hero() {
             style={{ backgroundColor: '#E87B2A' }}
           />
           <Image
-            src="/logo.jpg"
+            src="/logo.jpeg"
             alt="Limpieza y Mantenimiento TCR"
-            width={96}
-            height={96}
-            className="relative rounded-full object-cover ring-2 ring-white/20"
+            width={160}
+            height={160}
+            className="relative object-contain"
             priority
           />
         </div>
