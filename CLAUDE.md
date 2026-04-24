@@ -26,7 +26,7 @@ El objetivo principal del sitio es convertir visitas en consultas por WhatsApp �
 ## Marca e identidad visual
 
 ### Logo
-Archivo: `brand-assets/logo1.jpeg` (copia en `public/logo.jpeg` para uso en el sitio)
+Archivo: `brand-assets/logo_no_background.png` (copia en `public/logo.png` para uso en el sitio)
 
 Logo estilo badge/escudo con skyline de edificios modernos al fondo y texto "Limpieza y Mantenimiento TCR". Paleta verde/teal con degradé. Estilo moderno y profesional.
 
@@ -105,7 +105,7 @@ Sin definir aún — usar sans-serif moderna y limpia (ej. Inter o Poppins via G
 
 - `TCR base.md` — conversación con ChatGPT con ideas base (usar como referencia, no como límite)
 - `brand-assets/Servicio de limpieza y mantenimiento profesional..pdf` — propuesta comercial oficial (fuente de verdad para servicios, diferenciadores y paleta)
-- `brand-assets/logo1.jpeg` — logo oficial (copia en `public/logo.jpeg`)
+- `brand-assets/logo_no_background.png` — logo oficial (copia en `public/logo.jpeg`)
 
 ## Deploy
 

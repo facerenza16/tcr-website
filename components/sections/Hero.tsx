@@ -40,20 +40,14 @@ export function Hero() {
 
       <div className="relative z-10 max-w-3xl mx-auto text-center flex flex-col items-center gap-8">
         {/* Logo */}
-        <div className="relative">
-          <div
-            className="absolute inset-0 rounded-full blur-2xl opacity-30"
-            style={{ backgroundColor: '#E87B2A' }}
-          />
-          <Image
-            src="/logo.jpeg"
-            alt="Limpieza y Mantenimiento TCR"
-            width={160}
-            height={160}
-            className="relative object-contain"
-            priority
-          />
-        </div>
+        <Image
+          src="/logo.png"
+          alt="Limpieza y Mantenimiento TCR"
+          width={200}
+          height={200}
+          className="object-contain drop-shadow-2xl"
+          priority
+        />
 
         {/* Eyebrow */}
         <span
